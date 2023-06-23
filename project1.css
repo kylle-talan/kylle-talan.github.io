@@ -1,108 +1,42 @@
-body {
-    background-color: whitesmoke !important;
-    margin: 0;
+.logo {
+    height: 5rem;
 }
 
-header {
-    color: #c38c5c;
-    padding-left: 70px;
-    height: 10vh;
+span {
+    color: #ffc300;
 }
 
-h2 {
-    font-size: 8rem;
-    color: #c38c5c;
+.soa {
+    color: orange;
 }
 
-h2.nuclear {
-    transform: translate(400px, 100px);
+.content {
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 10rem;
 }
 
-h2.phrase {
-    transform: translate(1600px, -100px);
+.history {
+    font-size: 7rem;
+    color: black;
 }
 
-.container {
-    height: 80vh;
-    width: 100vw;
+.sticky {
+    font-size: 15rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    color: #ffc300;
+    margin-left: 6rem;
 }
 
-.a1 {
-    height: 50%;
-    width: 100%;
-    background-color: whitesmoke;
+ul+h2 {
+    font-size: 5rem;
+}
+
+ul>li {
     display: flex;
-    margin: 0;
-}
-
-/* img {
-    height: 70rem;
-    width: 50%;
-} */
-
-.centerimg {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    position: relative;
-    margin: 9.6rem auto 0px;
-    height: 70rem;
-    width: 55%;
-    /* right: 43rem;
-        top: 8rem; */
-}
-
-.a2 {
-    border: 1px solid white !important;
-    height: 50%;
-    width: 100%;
-    background-color: #0e2b2d;
-    display: flex;
-    margin: 0;
-}
-
-.menu {
-    position: fixed;
-    display: flex;
-    transform: translate(1800px, -50px);
-    flex-wrap: wrap;
-    row-gap: 0%;
-    margin-right: 8rem;
-    margin-top: 1rem;
-    justify-self: end;
-    /* place-items: right; */
-}
-
-.flexitem {
-    width: 50px;
-    margin: 10px;
-    text-align: center;
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 25px;
-    line-height: 50px;
-}
-
-.box {
-    background-color: whitesmoke;
-    width: 5rem;
-}
-
-.box:hover {
-    background-color: white;
-    color: yellow;
-}
-
-a {
-    color: #c38c5c;
-    text-decoration: none;
-
-}
-
-li {
-    list-style: none;
-}
-
-section {
-    height: 12rem;
-    background-color: whitesmoke;
+    list-style-type: none;
+    justify-content: flex-start;
 }
