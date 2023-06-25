@@ -42,8 +42,8 @@
                     <a href="#elements" class="nav-item nav-link">
                         <h6>Elements</h6>
                     </a>
-                    <a href="#explore" class="nav-item nav-link">
-                        <h6>Explore</h6>
+                    <a href="#fundamentals" class="nav-item nav-link">
+                        <h6>Fundamentals</h6>
                     </a>
                     <a href="#about" class="nav-item nav-link">
                         <h6>About Us</h6>
@@ -68,7 +68,9 @@
             <div class="row">
                 <div class="col-1"> </div>
                 <div class="col-4">
-                    <h2 style="font-size: 4rem;">Nuclear <br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Energy</span></h2>
+                    <h2 id="nuclear">Nuclear
+                        <br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Energy</span>
+                    </h2>
                 </div>
                 <div class="col-md-6"></div>
             </div>
@@ -89,20 +91,20 @@
             </div>
         </div>
         <div style="height: 25%; background-color: #003566;">
-            <img style="margin: 0px 23%; transform: translateY(-32.4rem); width: 50%;" src="Images/edit1.png"
+            <img id="pic1" style="margin: 0px 23%; width: 50%; transform: translateY(-43.6rem)" src="Images/edit1.png"
                 alt="image">
         </div>
     </div>
     <!------- Introduciton ------->
-    <div class="container-fluid-md p-5" style="height: 700px; background-color: white;">
-        <p class="content container-md">Nuclear energy is a form of power generated from the controlled release of
+    <div class="container-fluid p-5" style="height: 450px; background-color: white;">
+        <p class="content">Nuclear energy is a form of power generated from the controlled release of
             energy from atomic
             nuclei. It is harnessed through a process called nuclear fission, in which the nucleus of an atom is split,
             releasing a
             significant amount of energy in the form of heat. This heat is then used to produce steam, which drives
             turbines and generates electricity.
         </p><br><br>
-        <p class="content container-md">
+        <p class="content">
             Nuclear fuel contains an <span>extremely high energy density</span>, which means that a small amount of fuel
             can generate
             a significant amount of electricity. This makes nuclear power plants highly efficient and capable of
@@ -110,14 +112,66 @@
         </p>
     </div>
     <div id="gallery"></div>
-    <br><br><br>
     <!------- Nuclear Gallery ------->
-    <div class="container-fluid-md" style="height: 700px;">
+    <div class="container-fluid" style="height: 700px;">
         <div class="row">
-            <div class="col-md-6" style="background-color:  #003566;">
-                <h2 class="history p-5" style="color: white;">Gallery</h2>
+            <div class="col-sm-5" style="background-color:  #003566;">
+                <div class="carousel slide" id="carousel-11" data-bs-ride="carousel">
+                    <div class="carousel-inner p-2">
+                        <div class="carousel-item active">
+                            <div class="card w-100" style="height: 600px;">
+                                <div class="card-body text-center">
+                                    <p class="card-text">
+                                    <blockquote class="blockquote text-center"
+                                        style="font-size: 2rem; border-bottom: 1px solid grey;">
+                                        <p class="text-black display-1">"Nuclear energy, in terms of an overall
+                                            safety record, is better than other energy."</p>
+                                        <footer class="blockquote-footer">Bill Gates</footer>
+                                    </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card w-100" style="height: 600px;">
+                                <div class="card-body text-center align-content-center">
+                                    <p class="card-text">
+                                    <blockquote class="blockquote text-center"
+                                        style="font-size: 1.5rem; border-bottom: 1px solid grey;">
+                                        <p class="text-black display-4">"As expanding economies continue to grow,
+                                            the one source of energy that we can develop rapidly, cheaply and with
+                                            next-to-no emissions is nuclear energy."</p>
+                                        <footer class="blockquote-footer">Craig Stevens</footer>
+                                    </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card w-100" style="height: 600px;">
+                                <div class="card-body text-center align-content-center">
+                                    <p class="card-text">
+                                    <blockquote class="blockquote text-center"
+                                        style="font-size: 2rem; border-bottom: 1px solid grey;">
+                                        <p class="text-black display-3">"Nuclear energy is a baseload - meaning
+                                            it's power that you can run any time you want, day or night - and
+                                            carbon-free."</p>
+                                        <footer class="blockquote-footer">Nathan Myhrvolds</footer>
+                                    </blockquote>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#carousel-11" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#carousel-11" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-7">
                 <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
@@ -149,34 +203,22 @@
         </div>
     </div>
     <div id="history"></div>
-    <br><br><br>
+    <br><br><br><br><br><br>
     <!------- Nuclear History ------->
     <div class="container-fluid p-4" style="background-color: white;">
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history"><sup>th </sup>Century
-                            <p class="content"><sup>Discovery of Radioactivity</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">19<sup>th</sup> Century
+                        </p>
+                        <footer class="blockquote-footer">Discovery of Radioactivity</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">Scientists such as Henri
+                    <br>
+                    <p id="history-text">Scientists such as Henri
                         Becquerel, Marie Curie, and Ernest Rutherford conducted pioneering research on radioactivity,
                         leading to the discovery of the existence of different types of radiation.
                         <span class="d-flex justify-content-end align-content-end">
@@ -205,35 +247,21 @@
                         </span>
                     </p>
                 </div>
-
-            </div>
-        </div>
-        <br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">-19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
             </div>
         </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">05
-                            <p class="content"><sup>Nuclear Theory</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start"
+                        style="font-size: 2rem; font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1905</p>
+                        <footer class="blockquote-footer">Nuclear Theory</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">Albert Einstein introduced the equation E=mc², which revealed
+                    <br>
+                    <p id="history-text">Albert Einstein introduced the equation E=mc², which revealed
                         the relationship between mass and energy and laid the foundation for understanding nuclear
                         energy.
                         <span class="d-flex justify-content-end align-content-end">
@@ -264,32 +292,18 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">-19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">32
-                            <p class="content"><sup>Neutron Discovery</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1932</p>
+                        <footer class="blockquote-footer">Neutron Discovery</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">James Chadwick discovered the neutron, an uncharged particle with a mass
+                    <br>
+                    <p id="history-text">James Chadwick discovered the neutron, an uncharged particle with a mass
                         similar to that of a proton, which proved crucial for subsequent nuclear research.
                         <span class="d-flex justify-content-end align-content-end">
                             <h3><a href="#modalbox3" class="btn btn-warning" data-bs-toggle="modal">Did you know?</a>
@@ -319,32 +333,18 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">-19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">38
-                            <p class="content"><sup>Nuclear Fission </sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1938</p>
+                        <footer class="blockquote-footer">Nuclear Fission</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">Otto Hahn and Fritz Strassmann, in collaboration with Lise Meitner and
+                    <br>
+                    <p id="history-text">Otto Hahn and Fritz Strassmann, in collaboration with Lise Meitner and
                         Otto Frisch, discovered nuclear fission—the process of splitting an atomic nucleus. This
                         breakthrough provided the basis for harnessing nuclear energy.
                         <span class="d-flex justify-content-end align-content-end">
@@ -375,32 +375,18 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">42 - 1946
-                            <p class="content"><sup>Manhattan Project</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1942 - 1946</p>
+                        <footer class="blockquote-footer">Manhattan Project</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">During World War II, the Manhattan Project, led by the United States, aimed to
+                    <br>
+                    <p id="history-text">During World War II, the Manhattan Project, led by the United States, aimed to
                         develop atomic weapons. It resulted in the successful creation and testing of the first
                         nuclear weapons, including the atomic bombs dropped on Hiroshima and Nagasaki in 1945.
                         <span class="d-flex justify-content-end align-content-end">
@@ -431,32 +417,18 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">-19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">50
-                            <p class="content"><sup>Peaceful Applications</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1950</p>
+                        <footer class="blockquote-footer">Peaceful Applications</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">Following the war, efforts were made to harness nuclear energy for peaceful
+                    <br>
+                    <p id="history-text">Following the war, efforts were made to harness nuclear energy for peaceful
                         purposes. In 1951, the Experimental Breeder Reactor I in Idaho became the first nuclear
                         reactor to generate electricity, marking the beginning of civilian nuclear power.
                         <span class="d-flex justify-content-end align-content-end">
@@ -487,32 +459,18 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">51-1960s
-                            <p class="content"><sup>Commercial Nuclear Power</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1951 - 1960s</p>
+                        <footer class="blockquote-footer">Commercial Nuclear Power</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">Several countries, including the United States,
+                    <br>
+                    <p id="history-text">Several countries, including the United States,
                         the Soviet Union, France, and the United Kingdom, developed commercial nuclear power plants.
                         These plants began generating electricity on a larger scale and became an important part of
                         their
@@ -545,32 +503,19 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br><br>
-        <div style="height: 30px;">
-            <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">-19
-                            </div>
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <br><br><br>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history">79 - 2011
-                            <p class="content"><sup>Nuclear Accidents</sup></p>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">1979 - 2011</p>
+                        <footer class="blockquote-footer">Nuclear Accidents</footer>
+                    </blockquote>
                 </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class=" d-flex justify-content-end align-content-center"></div>
-                    <p class="content">The history of nuclear energy also includes significant nuclear accidents, such
+                    <br>
+                    <p id="history-text">The history of nuclear energy also includes significant nuclear accidents, such
                         as the Three Mile Island accident in the United States in 1979, the Chernobyl disaster in
                         the Soviet Union in 1986, and the Fukushima Daiichi nuclear disaster in Japan in 2011. These
                         incidents led to increased scrutiny, safety improvements, and public concerns regarding
@@ -603,27 +548,19 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br>
         <div style="height: 400px;">
             <div class="row">
-                <div class="col-1">
-                    <div class="d-flex justify-content-center">
-                        <h2 class="history">
-                            <div class="sticky">21
-                            </div>
-                        </h2>
-                    </div>
+                <div class="col-md-4 col-lg-6">
+                    <blockquote class="blockquote text-start" style="font-size: 2rem; border-bottom: 1px solid grey;">
+                        <p class="text-warning display-2">21<sup>st</sup> Century</p>
+                        <footer class="blockquote-footer">Nuclear Energy Today</footer>
+                    </blockquote>
                 </div>
-                <div class="col-5">
-                    <div class="d-flex justify-content-end">
-                        <h2 class="history"><sup>st </sup>Century
-                            <p class="content"><sup>Nuclear Energy Today</sup></p>
-                        </h2>
-                    </div>
-                </div>
-                <div class="col-6" style="border-left: 1px solid grey;">
+                <div class="col-md-8 col-lg-6" style="border-left: 1px solid grey;">
                     <div class="d-flex justify-content-end align-content-center"></div>
-                    <p class="content">Despite challenges and debates, nuclear energy continues to be a significant
+                    <br>
+                    <p id="history-text">Despite challenges and debates, nuclear energy continues to be a significant
                         source of electricity in many countries worldwide. Technological advancements, including
                         safer
                         reactor designs and improved waste management, are being pursued to ensure the long-term
@@ -663,7 +600,7 @@
     <!------- Nuclear Elements ------->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card w-30">
                     <img src="https://www.geologyforinvestors.com/wp-content/uploads/1024px-Pitchblende+zippeite01-780x470.jpg"
                         alt="Uranium" class="card-img-top" style="height: 360px;">
@@ -679,7 +616,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card w-30">
                     <img src="https://energyeducation.ca/wiki/images/a/a7/Uraninite-usa32abg.jpg" alt="nature"
                         class="card-img-top" style="height: 360px;">
@@ -695,7 +632,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card w-30">
                     <img src="https://cdn1.byjus.com/wp-content/uploads/2018/08/Plutonium-2.jpg" alt="nature"
                         class="card-img-top" style="height: 360px;">
@@ -712,18 +649,18 @@
                 </div>
             </div>
         </div>
-        <div id="explore"></div>
+        <div id="fundamentals"></div>
     </div><br><br><br><br><br>
     <!------- Nuclear Topics ------->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <span>
-                    <h2 class="content">Basics of <br>Nuclear Energy:</h2>
+                    <h2>Basics of Nuclear Energy:</h2>
                 </span>
             </div>
-            <div class="col-8">
-                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-2" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card w-100 h-50">
@@ -779,10 +716,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                    <a href="#carousel-2" class="carousel-control-prev" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                    <a href="#carousel-2" class="carousel-control-next" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
@@ -790,13 +727,13 @@
         </div>
         <hr><br>
         <div class="row">
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <span>
-                    <h2 class="content">Nuclear Power<br>Generation:</h2>
+                    <h2>Nuclear Power Generation:</h2>
                 </span>
             </div>
-            <div class="col-8">
-                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-3" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card w-100 h-50">
@@ -859,10 +796,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                    <a href="#carousel-3" class="carousel-control-prev" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                    <a href="#carousel-3" class="carousel-control-next" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
@@ -870,13 +807,13 @@
         </div>
         <hr><br>
         <div class="row">
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <span>
-                    <h2 class="content">Nuclear<br>Fuel Cycle:</h2>
+                    <h2>Nuclear Fuel Cycle:</h2>
                 </span>
             </div>
-            <div class="col-8">
-                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-4" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card w-100 h-50">
@@ -945,10 +882,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                    <a href="#carousel-4" class="carousel-control-prev" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                    <a href="#carousel-4" class="carousel-control-next" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
@@ -956,13 +893,13 @@
         </div>
         <hr><br>
         <div class="row">
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <span>
-                    <h2 class="content">Environmental <br>Impacts and Waste<br> Management:</h2>
+                    <h2>Environmental Impacts and <br> Waste Management:</h2>
                 </span>
             </div>
-            <div class="col-8">
-                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-5" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card w-100 h-50">
@@ -998,10 +935,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                    <a href="#carousel-5" class="carousel-control-prev" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                    <a href="#carousel-5" class="carousel-control-next" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
@@ -1009,13 +946,13 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <span>
-                    <h2 class="content">Nuclear Energy<br> Policy and Economics:</h2>
+                    <h2>Nuclear Energy<br> Policy and Economics:</h2>
                 </span>
             </div>
-            <div class="col-8">
-                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-6" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card w-100 h-50">
@@ -1086,10 +1023,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                    <a href="#carousel-6" class="carousel-control-prev" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                    <a href="#carousel-6" class="carousel-control-next" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
@@ -1097,13 +1034,13 @@
         </div>
         <hr><br>
         <div class="row">
-            <div class="col-4 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
                 <span>
-                    <h2 class="content">Sustainable Development:</h2>
+                    <h2>Sustainable Development:</h2>
                 </span>
             </div>
-            <div class="col-8">
-                <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+            <div class="col-md-8">
+                <div class="carousel slide" id="carousel-7" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card w-100 h-50 ">
@@ -1178,10 +1115,10 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                    <a href="#carousel-7" class="carousel-control-prev" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                    <a href="#carousel-7" class="carousel-control-next" data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
@@ -1191,7 +1128,7 @@
     <br><br><br>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <span>
                     <h2 class="history">Pros</h2>
                 </span>
@@ -1227,7 +1164,7 @@
                     sustainability of nuclear energy.
                 </p>
             </div>
-            <div class="col-6" style="border-left: 1px solid grey;">
+            <div class="col-md-6" style="border-left: 1px solid grey;">
                 <span>
                     <h2 class="history">Cons</h2>
                 </span>
@@ -1300,13 +1237,68 @@
             associated with nuclear energy and to ensure its safe and sustainable use as part of a diverse and balanced
             energy mix.
         </p>
+        <div id="about"></div>
     </div>
+    <br><br><br><br><br>
+    <div class="container-fluid">
+        <h2 class="history">About Us</h2>
+        <br>
+        <p class="content">At <span class="text-warning">Signika Ind.</span>, we are driven by a deep passion for
+            spreading knowledge and awareness to
+            make a positive impact on the world. Our mission is to empower individuals, organizations, and communities
+            by providing them with the tools and resources they need to broaden their understanding, foster personal
+            growth, and create meaningful change.
+            <br><br>
+            We believe that knowledge is the key to unlocking human potential and driving progress in every aspect of
+            life. By promoting education and awareness, we aim to bridge the gap between information and action,
+            empowering people to make informed decisions and contribute to a more enlightened society.
+            <br><br>
+            Our team is composed of dedicated experts from diverse fields who share a common goal of advancing knowledge
+            and awareness. From scientists and researchers to educators and communicators, we bring together a wealth of
+            expertise and experience to curate and disseminate valuable information.
+            <br><br>
+            We strive to provide accessible and comprehensive resources that cater to a wide range of interests and
+            backgrounds. Through our carefully curated content, we aim to ignite curiosity, encourage critical thinking,
+            and inspire individuals to explore new ideas and perspectives.
+            <br><br>
+            In addition to our content offerings, we are committed to fostering a community of learners and
+            change-makers. We believe in the power of collaboration and dialogue to drive meaningful progress. Through
+            interactive platforms, discussion forums, and events, we provide opportunities for individuals to connect,
+            exchange ideas, and engage in productive conversations.
+            <br><br>
+            As advocates for knowledge and awareness, we also actively seek partnerships with like-minded organizations
+            and institutions. By joining forces, we can amplify our collective impact and reach a broader audience,
+            magnifying the effect of our efforts.
+            <br><br>
+            At <span class="text-warning">Signika Ind.</span>, we are dedicated to making a difference in the world. We
+            believe that by equipping
+            individuals with knowledge and fostering awareness, we can create a brighter future for generations to come.
+            Join us on this transformative journey as we strive to spread knowledge, inspire change, and shape a more
+            informed and enlightened world. Together, we can make a lasting impact.
+        </p>
+        <br>
+    </div>
+
     <footer>
-        <div class="row" style="height: 70px">
-            <h2></h2>
+        <div id="footer-height" class="row" style="border-top: 1px solid #003566;">
+            <div class="col-md-4 col-6"><img
+                    src="Images/vecteezy_stock-vector-finance-logo-template-accounting-logo-template_5533918.jpg" alt=""
+                    style="height: 3rem;"> Signika Industries
+            </div>
+            <div class="col-md-4 col-6">Social Media:
+                <br>
+                <i class="bi bi-facebook m-1"></i>
+                <i class="bi bi-twitter m-1"></i>
+                <i class="bi bi-instagram m-1"></i>
+                <i class="bi bi-linkedin m-1"></i>
+            </div>
+            <div class="col-md-4">
+                <p>Address: Piazza del Colosseo, 1, 00184 Roma RM, Italy</p>
+                <p>Contacts: 0345-12395</p>
+            </div>
         </div>
         <div class="row" style="height: 30px; background-color: #003566">
-            <div class="col-md-6 text-light">&copy; 2023 Signika. All Rights Reserved.</div>
+            <div class="col-md-6 text-light">&copy; 2023 Signika Industries. All Rights Reserved.</div>
             <div class="col-md-6 text-end">
                 <a href="" class="text-decoration-none text-light">Terms of Use |</a>
                 <a href="" class="text-decoration-none text-light">Privacy Policy |</a>

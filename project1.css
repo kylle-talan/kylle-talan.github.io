@@ -7,21 +7,21 @@ span {
 }
 
 .soa {
-    font-size: 4rem;
+    font-size: 1.2rem;
     display: flex;
     color: orange;
     transform: translateY(5rem);
 }
 
 .content {
-    font-size: 2.4rem;
+    font-size: 0.8rem;
     font-weight: 300;
     text-align: justify;
-    text-indent: 10rem;
+    text-indent: 4rem;
 }
 
 .history {
-    font-size: 7rem;
+    font-size: 2rem;
     color: black;
 }
 
@@ -42,4 +42,84 @@ ul>li {
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
+}
+
+@media (min-width: 320px) {
+    #pic1 {
+        transform: translateY(20.4rem);
+    }
+
+    #nuclear {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 576px) {
+    #footer-height {
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        font-size: 1.3rem;
+    }
+
+    #pic1 {
+        margin: 0px 23%;
+        width: 50%;
+        transform: translateY(-1rem)
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        font-size: 1.5rem;
+    }
+
+    #history-text {
+        font-size: 2.2rem;
+    }
+
+    #footer-height {
+        height: 100px;
+    }
+
+    #nuclear {
+        font-size: 6rem;
+    }
+
+    .soa {
+        font-size: 4rem;
+    }
+
+    #pic1 {
+        margin: 0px 23%;
+        width: 50%;
+        transform: translateY(-43.6rem)
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        font-size: 1.8rem;
+    }
+
+    #footer-height {
+        height: 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .content {
+        font-size: 2rem;
+    }
+
+    #pic1 {
+        transform: translateY(-43.6rem)
+    }
+
+    #footer-height {
+        height: 100px;
+    }
 }
