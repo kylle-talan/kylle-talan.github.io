@@ -45,6 +45,18 @@ ul>li {
 }
 
 @media (min-width: 320px) {
+    #c1 {
+        height: 720px;
+    }
+
+    #gallery1 {
+        height: 350px;
+    }
+
+    #introduction {
+        height: 350px;
+    }
+
     #pic1 {
         transform: translateY(20.4rem);
     }
@@ -70,11 +82,27 @@ ul>li {
         width: 50%;
         transform: translateY(-1rem)
     }
+
+    #introduction {
+        height: 450px;
+    }
 }
 
 @media (min-width: 992px) {
     .content {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    #c1 {
+        height: 980px;
+    }
+
+    #gallery1 {
+        height: 700px;
+    }
+
+    #introduction {
+        height: 1000px;
     }
 
     #history-text {
@@ -101,9 +129,6 @@ ul>li {
 }
 
 @media (min-width: 1200px) {
-    .content {
-        font-size: 1.8rem;
-    }
 
     #footer-height {
         height: 100px;
@@ -112,7 +137,7 @@ ul>li {
 
 @media (min-width: 1400px) {
     .content {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     #pic1 {
